@@ -1,0 +1,302 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    /*background-image :url('images/');*/
+
+}
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.mainheader .logo img{
+    width: 250px;
+    height: 70px ;
+    padding-left: 60px;
+    border-radius: 50%;
+
+}
+.mainheader nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.mainheader nav a{
+     text-decoration: none ;
+     color: black;
+     text-transform: uppercase;
+}
+.menubtn{
+    margin-right: 60px;
+}
+.mainheader button{
+ padding: 10px 45px;
+ text-align: center;
+ font-size:14px;
+ color: #fff;
+ border: none;
+border-radius: 10px;
+padding-left: 50px;
+
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   main .right-sec{
+    padding-right: 70px;
+   }
+
+   main .left-sec{
+    padding-left: 100px;
+   }
+
+   .left-sec h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 100px;
+   }
+
+   .left-sec h1{
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 15px 0;
+   }
+
+   .left-sec p{
+    margin-bottom: 20px;
+   }
+
+   .left-sec button{
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+    border-radius:10px;
+    }
+  .backgroundImg{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit:cover;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Section 1 - CBCT Scans */
+#section1 {
+    text-align: center;
+    padding: 50px;
+}
+
+#cbctButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1d2021;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cbctButton:hover {
+    background-color: #0074CC;
+}
+
+.imageContainer {
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cbctImage {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.imageContainer:hover #cbctImage {
+    transform: scale(1.1);
+}
+
+
+/* FAQ Section */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#faqSection {
+    padding: 50px;
+    background-color: #F8F9FA;
+    text-align: center;
+}
+
+.faqItem {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: calc(20% - 20px);
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.question {
+    font-weight: bold;
+    cursor: pointer;
+    color: #0074CC;
+}
+
+.answer {
+    display: none;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-left: 2px solid #001F3F;
+}
+
+.faqItem.active .answer {
+    display: block;
+}
+/* Section 3 - Team Details */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#section3 {
+    text-align: center;
+    padding: 50px;
+}
+
+.teamMember {
+    margin-bottom: 30px;
+}
+
+.teamMember img {
+    border-radius: 50%;
+    max-width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.teamMember img:hover {
+    transform: scale(1.1);
+}
+
+.teamMember h3 {
+    margin-top: 10px;
+}
+/* Add this in your existing CSS or style tag */
+
+/* Footer */
+footer {
+    background-color: #9ecdef;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#footerContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+  @media screen and (min-width:768px) {
+    body{
+        padding: 0% 10%;
+    }
+    .right-sec{
+
+        display: flex;
+    }
+
+     }
+/* Review Section */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#reviewSection {
+    text-align: center;
+    padding: 50px;
+    background-color: #F8F9FA;
+}
+
+.reviewContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.userName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.userReview {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.starRating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.star {
+    color: #FFD700;
+    margin: 0 2px;
+}
+.loginButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0074CC; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+    background-color: #005689; /* Darker blue on hover */
+}

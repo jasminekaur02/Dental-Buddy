@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="faq.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefins+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation">
+    <img src="Untitled design.png" alt="background" class="backgroundImg">
+    <header>
+        <div class="mainheader">
+            <div class="logo">
+                <img src="3d-dentist-smiling-tooth-icon-27995532.webp">
+            </div>
+            <nav>
+                <a href="@" >home</a>
+                <a href="@" >services</a>
+                <a href="@" >about</a>
+                <a href="@" >contact</a>
+                <!-- Login Button -->
+    <button class="loginButton"><a href="loginpage.html">Login</a></button>
+    
+            </nav>
+            <div class="menubtn">
+                <button>Helpline</button>
+             </div>
+             </div>
+           <main>
+    <section class="left-sec">
+     <h2> We Are Here For Your Care</h2>
+     <h1>  We The Best Doctors</h1>
+     <p>We are here for your care 24/7. Any help just call us.</p>
+     <button>
+       Make an appointment
+     </button>
+    </section>
+
+    <section class="right-sec">
+    <div class="hero">
+        <img src="ITD-stock-image-resize-smile-analysis-4f13796e.jpeg" alt="primeProduct">
+
+    </div>
+
+
+    </section>
+   </main>
+  </header>
+  <body>
+
+    <!-- Section 1 - CBCT Scans -->
+    <section id="section1">
+        <button id="cbctButton">Get CBCT Scan</button>
+        <div class="imageContainer">
+            <img id="cbctImage" src="cbct scan.jpg" alt="CBCT Scan">
+        </div>
+    </section>
+     <!-- FAQ Section -->
+     <section id="faqSection">
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+         <div class="faqItem">
+            <div class="question" onclick="toggleAnswer(this)">What is AI Dental Analysis?</div>
+            <div class="answer">AI Dental Analysis uses artificial intelligence to analyze dental radiographs and CBCT scans, aiding in the identification of various dental conditions.</div>
+        </div>
+
+        <div class="faqItem">
+            <div class="question"onclick="toggleAnswer(this)">How do I upload images for analysis?</div>
+            <div class="answer">Navigate to the "Get CBCT Scan" section, click the button, and follow the instructions to upload your dental images for real-time analysis.</div>
+        </div>
+
+        <div class="faqItem">
+            <div class="question"onclick="toggleAnswer(this)">Is the analysis secure?</div>
+            <div class="answer">Yes, the system prioritizes the security and privacy of patient data. Images are processed securely, and access is restricted to authorized users.</div>
+        </div>
+
+        <div class="faqItem">
+            <div class="question"onclick="toggleAnswer(this)">How can I provide feedback or report issues?</div>
+            <div class="answer">We appreciate your feedback. You can use the provided feedback form on the website or contact our support team at support@aidentalanalysis.com.</div>
+        </div>
+
+        <div class="faqItem">
+            <div class="question"onclick="toggleAnswer(this)">What types of dental conditions can the system detect?</div>
+            <div class="answer">The system can detect a wide range of dental conditions, including cavities, bone loss, impacted teeth, TMJ disorders, and other anomalies commonly observed in dental radiographs and CBCT scans.</div>
+        </div>
+    </section>
+   <!-- Review Section -->
+   <section id="reviewSection">
+    <h2>REVIEW SECTION</h2>
+    <!-- Review 1 -->
+    <div class="reviewContainer">
+        <div class="userName">John Doe</div>
+        <div class="starRating">
+            <!-- Adjust the number of stars based on the rating -->
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+        </div>
+        <div class="userReview">
+            "The AI Dental Analysis system is incredible! It helped me understand my dental condition better, and the team is highly professional."
+        </div>
+    </div>
+
+    <!-- Review 2 -->
+    <div class="reviewContainer">
+        <div class="userName">Jane Smith</div>
+        <div class="starRating">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+        </div>
+        <div class="userReview">
+            "I had a great experience with AI Dental Analysis. The interface is user-friendly, and the results were accurate. Highly recommended!"
+        </div>
+    </div>
+
+    <!-- Review 3 -->
+    <div class="reviewContainer">
+        <div class="userName">Alex Johnson</div>
+        <div class="starRating">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+        </div>
+        <div class="userReview">
+            "The team at AI Dental Analysis is top-notch. They provided quick and accurate analysis, making it easy for me to make informed decisions about my dental health."
+        </div>
+    </div>
+</section>
+
+    <!-- Section 3 - Team Details -->
+    <section id="section3">
+        <h2>TEAM DETAILS</h2>
+        <div class="teamMember">
+            <img src="team_member1.jpg" alt="Team Member 1">
+            <h3>Jasmine Kaur</h3>
+            <p>Full Stack & AI Developer</p>
+        </div>
+
+        <div class="teamMember">
+            <img src="team_member2.jpg" alt="Team Member 2">
+            <h3>Rishabh Mittal</h3>
+            <p>UX/UI Designer</p>
+        </div>
+        <div class="teamMember">
+            <img src="team_member3.jpg" alt="Team Member 3">
+            <h3>Mehak</h3>
+            <p>Frontend Engineer</p>
+        </div>
+
+    </section>
+
+</body>
+
+<footer>
+    <div id="footerContent">
+        <p>&copy; 2023 AI Dental Analysis DentalBuddy</p>
+        <p>Designed and Developed by DentalBuddy</p>
+        <p>Contact us at +917888382348</p>
+    </div>
+</footer>
+    </div>
+</html>
